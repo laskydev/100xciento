@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: #fff;
+}
+
+.header-menu{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.header-menu .logo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: #E0383C;
+    cursor: pointer;
+}
+
+.header-menu-options{
+    display: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.main-content h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 5px;
+
+}
+
+.main-content h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #707070;
+    margin-bottom: 1rem;
+}
+
+.main-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-img img{
+    height: 30vh;
+}
+
+
+.main-content-input{
+    height: 3rem;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid  #E0383C;
+    border-radius: 31px;
+    padding: none;
+    margin: 0 auto;
+    padding-left: 1%;
+}
+
+.main-content-input input{
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 99%;
+    margin: none;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1rem;
+}
+
+.main-content-input button{
+display: none
+}
+
+.button-mobile{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button-mobile button{
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    width: 10rem ;
+    border-radius:31px;
+    background-color: #E0383C;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/*CENTRANDO PLACEHOLDER DEL INPUT*/
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
